@@ -14,6 +14,12 @@ body {
   width: 100%;
 }
 
+.avatar_discription {
+  display: none;
+  padding: 10vh 0;
+  color: #11ff11;
+}
+
 .header::before {
   content: "If you are already crazy about this handsome guy, then look further... ♥";
   position: absolute;
@@ -141,6 +147,7 @@ body {
   }
 
   .avatar_discription {
+    display: block;
     padding: 10vh 0;
     color: #11ff11;
   }
